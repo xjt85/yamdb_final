@@ -1,5 +1,7 @@
 # Проект "YaMDb"
 
+![example workflow](https://github.com/xjt85/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 >Учебный проект в рамках курса __Python-developer__ на платформе __Яндекс.Практикум__
 
 Проект __YaMDb__ собирает отзывы (Review) пользователей о произведениях (Titles).
