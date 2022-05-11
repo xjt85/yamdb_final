@@ -42,7 +42,7 @@ _Новые жанры может создавать только админис
 Клонировать репозиторий и перейти в него в командной строке:
 ```
 git clone ссылка на репозиторий
-cd api_yamdb
+cd yamdb_final
 ```
 
 ### В папке /infra/ cоздать .env-файл по следующему шаблону:
@@ -64,10 +64,10 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-### команды для заполнения базы данными.
-```
-dddd
-```
+### Развернутый проект можно посмотреть по ссылкам: 
+http://51.250.30.21/admin/  
+http://51.250.30.21/redoc/  
+http://51.250.30.21/api/v1/  
 
 ### Примеры запросов к API
 
@@ -86,3 +86,5 @@ http://api/v1/genres/
 
 
 Роман Чуклинов
+
+https://github.com/xjt85
