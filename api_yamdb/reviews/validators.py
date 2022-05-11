@@ -1,6 +1,5 @@
-from django.utils import timezone
-
 from django.core import validators
+from django.utils import timezone
 
 
 def validate_title_year(year):
